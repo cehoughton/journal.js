@@ -9,6 +9,7 @@ $(document).ready(function() {
     var newJournal = new Journal(titleInput, inputEntry);
     $('#entries').prepend("<div><h3>" +
                          newJournal.title + "</h3>" + "<p>" +
-                          newJournal.body + "</p>" + "<p>" + newJournal.wordCount() + "</p></div>");
+                          newJournal.body + "</p>" + "<p>" + "Word Count: " +
+                          newJournal.wordCount() + "   ||   " + newJournal.time + "</p></div>");
   });
 });
