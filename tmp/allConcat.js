@@ -14,3 +14,7 @@ $(document).ready(function() {
                           newJournal.wordCount() + "   ||   " + newJournal.time + "</p></div>");
   });
 });
+
+$(document).ready(function(){
+  $('#time').text(moment());
+});

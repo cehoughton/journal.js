@@ -1,3 +1,6 @@
 node_modules/
 .pairs
 .pair
+bower_components/
+tmp/
+build/
